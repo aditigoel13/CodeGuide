@@ -2,67 +2,31 @@
 <br />
 <div align="center">
   
-<img src="https://th.bing.com/th/id/OIG3.4KSN22kFFkbCFQZm_C8y?w=1024&h=1024&rs=1&pid=ImgDetMain" width="150" />
 
 
-  <h3 align="center">AlgoAce - The Competitive Programming Buddy</h3>
+  <h3 align="center">CodeGuide</h3>
 
   <p align="center">
     An RAG based LLM app to help with your competitive programming queries 
     <br />
     <a href="#demo">View Demo</a>
     ·
-    <a href="https://github.com/AnavAgrawal/AlgoAce/issues">Report Bug</a>
+    <a href="https://github.com/aditigoel13/CodeGuide/issues">Report Bug</a>
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#demo">Demo</a></li>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li><a href="#architecture">Architecture</a></li>
-    <li>
-      <a href="#project-impact-and-key-aspects">Project Impact and Key Aspects</a>
-      <ul>
-        <li><a href="#end-user-and-impacted-industry">End User and Impacted Industry</a></li>
-        <li><a href="#business-impact">Business Impact</a></li>
-        <li><a href="#key-features">Key Features</a></li>
-        <li><a href="#future-enhancements">Future Enhancements</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#installation">Installation</a>
-      <ul>
-        <li><a href="#a-run-with-docker">Using Docker</a></li>
-        <li><a href="#b-run-with-conda">Using Conda</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-  </ol>
-</details>
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-AlgoAce is an AI-powered coding assistant built on Pathway's cutting-edge LLMApp architecture, revolutionizing the competitive programming experience by seamlessly integrating with Codeforces, leveraging users' performance data and problem sets to provide personalized guidance through intelligent context understanding, natural language processing, and tailored responses.
+CodeGuide is an AI-driven assistant aimed at transforming the competitive programming experience. Built on Pathway's advanced LLMApp framework, it integrates seamlessly with Codeforces to provide personalized advice and insights based on users' coding history and current problem sets.
 
-### Demo
-
-https://github.com/AnavAgrawal/AlgoAce/assets/70776064/dd0d8f51-3e6d-45fc-87c6-4903e59dccc4
 
 ### Built With
 
-This project was built as a sumbission for the final project in Pathway's 3-Week LLM Building Bootcamp. The tools used for building this app are:
+The tools used for building this app are:
 
 * [Pathway's LLM App](https://pathway.com/developers/showcases/llm-app-pathway)
 
@@ -70,11 +34,9 @@ This project was built as a sumbission for the final project in Pathway's 3-Week
 
 * [Codeforces API](https://codeforces.com/api/)
 
-## Architecture
-<img src="assets/ArchitectureLight.png" />
 
 ### UI and API Layer
-- **AlgoAce UI:** The user interface where users interact with the system. Users submit queries through this interface.
+- **CodeGuide UI:** The user interface where users interact with the system. Users submit queries through this interface.
 - **Pathway Restful API:** Acts as the bridge between the UI and the backend services. It processes incoming requests and interacts with various internal components to fetch and return the necessary information.
 
 ### Data Collection and Processing
@@ -96,23 +58,12 @@ This project was built as a sumbission for the final project in Pathway's 3-Week
 
 **Impacted Industry:** Education and Skill Development.
 
-### Business Impact
-AlgoAce is a valuable tool for the competitive programming community, offering personalized coding assistance and insights:
-
-- **Educational Impact:** AlgoAce democratizes access to personalized coding education, empowering learners to improve their problem-solving abilities and coding proficiency effectively.
-- **Competitive Advantage:** By leveraging a user's Codeforces performance data and recent problem sets, AlgoAce provides tailored guidance, helping participants gain a competitive edge in coding competitions.
-- **Skill Development:** With its interactive coding assistance, AlgoAce supports continuous skill development, equipping users with the necessary tools to excel in their coding endeavors, ultimately contributing to a more skilled and innovative workforce.
-
 ### Key Features
-- **Codeforces Integration:** Users can input their Codeforces handle, allowing AlgoAce to retrieve their past submissions and performance data, tailoring the assistance to their specific strengths and areas for improvement.
-- **Personalized Coding Assistance:** AlgoAce leverages the user's Codeforces data and the latest Codeforces problem sets as contextual information to provide personalized guidance, explanations, and code examples, addressing the user's specific coding queries.
-- **Interactive Experience:** With its conversational interface, AlgoAce offers an engaging and interactive coding experience, allowing users to ask follow-up questions and receive real-time feedback.
+- **Codeforces Integration:** Users can input their Codeforces handle, allowing CodeGuide to retrieve their past submissions and performance data, tailoring the assistance to their specific strengths and areas for improvement.
+- **Personalized Coding Assistance:** CodeGuide leverages the user's Codeforces data and the latest Codeforces problem sets as contextual information to provide personalized guidance, explanations, and code examples, addressing the user's specific coding queries.
+- **Interactive Experience:** With its conversational interface, CodeGuide offers an engaging and interactive coding experience, allowing users to ask follow-up questions and receive real-time feedback.
 
-### Future Enhancements
-- **Expanded Problem Set Integration:** Incorporate additional competitive programming platforms and problem sets to broaden the scope of contextual information available to AlgoAce.
-- **Adaptive Learning:** Implement adaptive learning algorithms to tailor the level of explanations and guidance based on the user's skill level and progression.
-- **Performance Analytics:** Provide users with detailed performance analytics, tracking their progress, identifying areas for improvement, and suggesting personalized learning paths.
-- **Collaborative Learning:** Introduce collaborative features that enable users to share their coding experiences, discuss solutions, and learn from one another, fostering a vibrant coding community.
+
 <!-- GETTING STARTED -->
 
 ## Installation
@@ -191,11 +142,11 @@ Ensure you have Conda installed on your system before proceeding. Conda will be 
 
 1. Clone the project repository to your local machine.
     ```
-    git clone https://github.com/AnavAgrawal/AlgoAce
+    git clone https://github.com/aditigoel13/CodeGuide
     ```
 2. Navigate to the project directory.
     ```
-    cd AlgoAce
+    cd CodeGuide
     ```
 
 3. Set environment variables
@@ -243,28 +194,16 @@ Ensure you have Conda installed on your system before proceeding. Conda will be 
 <!-- USAGE -->
 ## Usage
 
-<img src="assets\UI.jpg"/>
+
 
 - **Programming Language Preference:** Enhance your learning experience by specifying your preferred programming language. The chatbot will provide code solutions and explanations tailored to your chosen language, facilitating a more effective understanding.
 
-<!-- - ![demo 2](./assets/demo-2.gif) -->
+
 
 - **Enter your Codeforces Handle:** Unlock insights into your competitive programming journey by entering your Codeforces handle. The chatbot will retrieve your past submissions and performance data, allowing it to provide personalized guidance and recommendations based on your historical progress.
 
-<!-- - ![demo 3](./assets/demo-3.gif) -->
 
 - **Ask your queries:** Engage in a conversational coding experience with our AI-powered chatbot. Ask your coding queries, and the chatbot will analyze your questions, leverage its extensive knowledge base, and provide tailored guidance, explanations, and code examples to help you deepen your understanding of programming concepts and overcome learning challenges.
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-The open source community thrives on the collaborative efforts of its members, and your contributions are **greatly appreciated**. If you have suggestions for improvements, please fork the repository and create a pull request. Don't forget to star the project! Thank you for your support!
-
-1. Fork the repository.
-2. Create a new branch for your feature (`git checkout -b feature/NewFeature`).
-3. Commit your changes (`git commit -m 'Add a new feature'`).
-4. Push to your branch (`git push origin feature/NewFeature`).
-5. Open a pull request.
 
 
 
