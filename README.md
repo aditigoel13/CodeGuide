@@ -9,7 +9,7 @@
   <p align="center">
     An RAG based LLM app to help with your competitive programming queries 
     <br />
-    <a href="#demo">View Demo</a>
+   
     ·
     <a href="https://github.com/aditigoel13/CodeGuide/issues">Report Bug</a>
   </p>
